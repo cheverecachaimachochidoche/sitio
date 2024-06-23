@@ -9,7 +9,7 @@ body {
   background-color: rgba(239, 239, 239, 0.5);
 }
 
-.navbar {
+.navba {
   position: fixed; /* Fija la navbar a la ventana gráfica */
   background-color: rgba(211, 211, 211, 0.5); /* Color gris claro con 50% de transparencia */
   z-index: 1000; /* Asegura que la navbar esté encima de la imagen */
@@ -126,27 +126,12 @@ body {
   background-color: #f4f4f4;
 }
 
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 1em 0;
-  text-align: center;
-}
-
 h1, h2, h3 {
   text-align: center;
 }
 
 p {
   margin: 1em 0;
-}
-
-section {
-  margin: 2em auto;
-  max-width: 800px;
-  padding: 1em;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .servicio {
@@ -162,13 +147,6 @@ section {
   display: block;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1em 0;
-}
-
 .navbar {
   position: fixed; /* Fija la navbar a la ventana gráfica */
   background-color: rgba(239, 239, 239, 0.5);
@@ -181,25 +159,6 @@ footer {
   align-items: center; /* Alinea elementos verticalmente al centro */
   justify-content: left; /* Distribuye espacio entre logo y menú */
   padding: 15px;
-}
-
-.navbar-logo {
-  height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
-  margin-right: 150px; /* Espacio entre la imagen y el menú */
-}
-
-.navbar-nav {
-  display: flex;
-  gap: 20px; /* Espacio entre los enlaces del menú */
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #000; /* Color del texto de los enlaces */
-}
-
-.nav-link:hover {
-  text-decoration: underline;
 }
 
 .image-container {
