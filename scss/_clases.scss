@@ -12,22 +12,22 @@
     padding: 15px;
 }
 
-.navbar-logo {
+.navba-logo {
     height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
     margin-right: 150px; /* Espacio entre la imagen y el menú */
 }
 
-.navbar-nav {
+.navba-nav {
     display: flex;
     gap: 20px; /* Espacio entre los enlaces del menú */
 }
 
-.nav-link {
+.na-link {
     text-decoration: none;
     color: #000; /* Color del texto de los enlaces */
 }
 
-.nav-link:hover {
+.na-link:hover {
     text-decoration: underline;
 }
 
@@ -112,3 +112,191 @@
 h1 {
     text-align: center;
 }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin: 1em 0;
+}
+
+section {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.servicio {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.servicio img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 1em;
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+.navbar {
+    position: fixed; /* Fija la navbar a la ventana gráfica */
+    background-color: rgba(239, 239, 239, 0.5);
+    z-index: 1000; /* Asegura que la navbar esté encima de la imagen */
+    width: 100%; /* Asegura que la navbar ocupe todo el ancho de la pantalla */
+  }
+  
+  .container-fluid {
+    display: flex;
+    align-items: center; /* Alinea elementos verticalmente al centro */
+    justify-content: left; /* Distribuye espacio entre logo y menú */
+    padding: 15px;
+  }
+  
+  .navbar-logo {
+    height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 150px; /* Espacio entre la imagen y el menú */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces del menú */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000; /* Color del texto de los enlaces */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .img1 {
+    height: 600px;
+    padding-right: 10px;
+    z-index: 1; /* Asegura que la imagen esté debajo de la navbar */
+  }
+  
+  .img2 {
+    height: 600px;
+    padding-left: 20px;
+    z-index: 1; /* Asegura que la imagen esté debajo de la navbar */
+  }
+  
+  .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  
+  .content2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 200px;
+    padding-top: 70px;
+  }
+  
+  .text {
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .text2 {
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 200px;
+    padding-left: 100px;
+  }
+  
+  .boton {
+    margin-bottom: 20px;
+    padding-left: 290px;
+    align-items: center;
+  }
+  
+  .btn-primary {
+    background-color: #C8D0EB;
+    border-color: #C8D0EB;
+    color: #353537;
+  }
+  
+  .btn-lg {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+  }
+  
+  .action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 220px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .pie {
+    padding-top: 201px;
+    text-align: center;
+  }
+  
+  .car {
+    display: flex;
+    padding-top: 200px;
+  }
+  
+  .carousel-image {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    max-height: 1500px; /* Establece una altura máxima para las imágenes */
+  }
+  
+  .carousel-3d-slider {
+    width: 6000px; /* Ancho deseado del slide */
+    height: 400px; /* Alto deseado del slide */
+    /* Otros estilos necesarios */
+  }
+  
+  /*# sourceMappingURL=main.css.map */
