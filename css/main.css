@@ -231,24 +231,16 @@ h1 {
 
 @media (max-width: 768px) {
   .navbar-nav {
-    display: none;
-    flex-direction: row;
-    width: 100%;
-  }
-  .navbar-nav.active {
-    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
   }
   .navbar-logo {
+    margin-bottom: 0.5rem;
     width: 80px;
   }
-  .navbar-toggler {
-    display: block;
-    background-color: #444;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    cursor: pointer;
+  .nav-link {
+    padding: 0.5rem;
+    font-size: 0.9rem;
   }
 }
 
