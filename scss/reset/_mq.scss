@@ -23,4 +23,13 @@
         z-index: 1000; /* Asegura que la navbar esté encima de la imagen */
         width: 100%; /* Asegura que la navbar ocupe todo el ancho de la pantalla */
     }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 100px;
+        padding-top: 10px;   
+        padding-bottom: 100px; 
+    }
 }
