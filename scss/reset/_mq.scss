@@ -2,10 +2,20 @@
     .idf {
       justify-content: center;
     }
-    .navba {
+    .navba-logo {
       max-width: 100%;
       height: auto; 
+      justify-content:left;
+      position: static;
     }
+
+    .navba-nav{
+        max-width: 100%;
+        height: auto; 
+        justify-content:left;
+        position: static;
+        }
+
     .filoso {
       max-width: 100%;
       height: auto;
