@@ -230,9 +230,13 @@ h1 {
 
 
 @media (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+  }
   .navbar-nav {
-    justify-content: left;
-    gap: 0.4rem;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
   }
   .navbar-logo {
     margin-bottom: 0.5rem;
