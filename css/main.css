@@ -271,7 +271,7 @@ h1 {
   }
   .action-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .img1 {
     width: 100%;
