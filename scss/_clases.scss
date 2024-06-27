@@ -141,6 +141,7 @@ p {
 
 .servicio {
     margin-bottom: 2em;
+    padding-top: 120px;
     text-align: center;
 }
 
@@ -152,7 +153,11 @@ p {
     display: block;
 }
 
-
+.contacto {
+  margin-bottom: 2em;
+  padding-top: 120px;
+  text-align: center;
+}
 
 
 
@@ -218,6 +223,8 @@ p {
   
   .car {
     display: flex;
+    flex-direction: column;
+
     padding-top: 200px;
   }
   

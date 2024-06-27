@@ -139,6 +139,7 @@ p {
 
 .servicio {
   margin-bottom: 2em;
+  padding-top: 120px;
   text-align: center;
 }
 
@@ -148,6 +149,12 @@ p {
   height: auto;
   margin: 0 auto 1em;
   display: block;
+}
+
+.contacto {
+  margin-bottom: 2em;
+  padding-top: 120px;
+  text-align: center;
 }
 
 .container-fluid {
@@ -205,6 +212,7 @@ h1 {
 
 .car {
   display: flex;
+  flex-direction: column;
   padding-top: 200px;
 }
 
