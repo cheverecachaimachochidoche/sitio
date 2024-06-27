@@ -14,4 +14,13 @@
         padding: auto;
         align-items: center;
     }
+    
+    .navba {
+        position:fixed;
+        align-items:start;
+        
+        background-color: rgba(211, 211, 211, 0.5); /* Color gris claro con 50% de transparencia */
+        z-index: 1000; /* Asegura que la navbar esté encima de la imagen */
+        width: 100%; /* Asegura que la navbar ocupe todo el ancho de la pantalla */
+    }
 }
