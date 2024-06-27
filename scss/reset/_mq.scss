@@ -1,35 +1,65 @@
 @media (max-width: 768px) {
-    .content {
-        padding: 1em;
-        margin: 1em 0;
+    .idf {
+      justify-content: center;
     }
-    h2 {
-        font-size: 1.5em;
-    }
-    p {
-        font-size: 1em;
-    }
-    .action-container, .boton
-    {
-        padding: auto;
-        align-items: center;
-    }
-    
     .navba {
-        position:fixed;
-        align-items:start;
-        
-        background-color: rgba(211, 211, 211, 0.5); /* Color gris claro con 50% de transparencia */
-        z-index: 1000; /* Asegura que la navbar esté encima de la imagen */
-        width: 100%; /* Asegura que la navbar ocupe todo el ancho de la pantalla */
+      max-width: 100%;
+      height: auto; 
     }
-
-    .content {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 100px;
-        padding-top: 10px;   
-        padding-bottom: 100px; 
+    .filoso {
+      max-width: 100%;
+      height: auto;
     }
-}
+    .car {
+      max-width: 100%;
+      height: auto;
+    }
+    .men {
+      max-width: 100%;
+      height: auto;
+    }
+    .mb-3,
+    .sidebar__form,
+    .sidebar__item {
+      max-width: 100%;
+      height: auto;
+    }
+    .vide iframe {
+      max-width: 100%;
+      height: auto;
+    }
+    .log {
+      max-width: 100%;
+      height: auto;
+    }
+    .nave {
+      font-size: medium;
+      justify-content: center;
+      position: static;
+    }
+  
+    .aprivacidad, .aprivacidad h1, .aprivacidad p
+    {
+      font-size: large;
+      justify-content: center;
+      position: static;
+      
+    }
+  
+    .header__nav
+    {
+      font-size:large;
+      justify-content: center;
+      position: static;
+    }
+  
+    h1, h2, h3
+    {
+      font-size: large;
+      justify-content: center;
+      position: static;
+      font-weight: bold;
+    }
+  
+  
+  }
