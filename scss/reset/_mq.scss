@@ -5,7 +5,11 @@
         flex-direction: row;
         align-items: flex-start;
       }
-    
+     
+      .navba-logo {
+        height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
+        margin-right: 10px; /* Espacio entre la imagen y el menú */
+    }
       .navba-nav {
         font-size: small;
         width: 100%;
