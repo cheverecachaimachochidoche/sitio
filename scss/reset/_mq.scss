@@ -1,11 +1,7 @@
 /* Media queries para pantallas medianas */
 @media (max-width: 768px) {
-    .content {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .navba
+
+    .container-fluid
     {
       font-size:small;
       justify-content: left;
