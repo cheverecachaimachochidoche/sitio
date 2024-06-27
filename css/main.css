@@ -243,7 +243,8 @@ h1 {
   .navba-nav {
     font-size: small;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
   .action-container, .image-container {
     flex-direction: column; /* Cambia a disposición en columna en pantallas pequeñas */
