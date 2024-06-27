@@ -234,6 +234,7 @@ h1 {
 }
 
 
+/* Media queries para pantallas medianas */
 @media (max-width: 768px) {
   .content {
     flex-direction: column;
@@ -243,14 +244,13 @@ h1 {
     flex: 1 1 100%;
   }
   .text {
-    max-width: 100%;
-    height: auto;
+    padding: 0;
   }
   .image-container {
-    max-width: min-content;
-    height: auto;
+    margin-bottom: 1rem;
   }
 }
+/* Media queries para pantallas pequeñas */
 @media (max-width: 480px) {
   .text h1 {
     font-size: 1.5rem;
