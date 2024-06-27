@@ -13,10 +13,8 @@
 }
 
 .image-container {
-  display: flex;
-  align-items: center; /* Alinea elementos verticalmente al centro */
-  width: 100%; /* Asegura que la navbar ocupe todo el ancho de la pantalla */
-
+  flex-direction: column; /* Cambia a disposición en columna en pantallas pequeñas */
+  align-items: center; /* Centra verticalmente los elementos */
 }
 
 
