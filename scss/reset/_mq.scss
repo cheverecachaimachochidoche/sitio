@@ -2,12 +2,18 @@
 @media (max-width: 768px) {
 
 
-    .navba-logo,.container-fluid
+    .container-fluid
     {
         max-width: 100%;
         height: auto;
+        align-items: flex-start;
     }
 
+    .navba-logo
+    {
+        max-width: 10%;
+        height: auto;
+    }
 
 
     
