@@ -232,7 +232,7 @@ h1 {
 @media (max-width: 768px) {
   .navbar-nav {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
   }
   .navbar-nav.active {
