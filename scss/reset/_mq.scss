@@ -7,14 +7,19 @@
       }
     
       .navba-nav {
+        font-size: small;
         width: 100%;
         justify-content: space-between;
       }
     
 
       .action-container, .image-container {
-        flex: 1 1 100%; /* Asegura que cada elemento ocupe el ancho completo del contenedor en pantallas pequeñas */
-      }
+
+        flex-direction: column; /* Cambia a disposición en columna en pantallas pequeñas */
+        align-items: center; /* Centra verticalmente los elementos */
+          }
+          
+       
     }
 
 
