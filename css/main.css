@@ -230,58 +230,25 @@ h1 {
 
 
 @media (max-width: 768px) {
-  header {
-    max-width: 100%;
-    height: auto;
-    justify-content: left;
-    position: static;
+  .navbar-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
   }
-  .filoso {
-    max-width: 100%;
-    height: auto;
+  .navbar-nav.active {
+    display: flex;
   }
-  .car {
-    max-width: 100%;
-    height: auto;
+  .navbar-logo {
+    width: 80px;
   }
-  .men {
-    max-width: 100%;
-    height: auto;
-  }
-  .mb-3,
-  .sidebar__form,
-  .sidebar__item {
-    max-width: 100%;
-    height: auto;
-  }
-  .vide iframe {
-    max-width: 100%;
-    height: auto;
-  }
-  .log {
-    max-width: 100%;
-    height: auto;
-  }
-  .nave {
-    font-size: medium;
-    justify-content: center;
-    position: static;
-  }
-  .aprivacidad, .aprivacidad h1, .aprivacidad p {
-    font-size: large;
-    justify-content: center;
-    position: static;
-  }
-  .header__nav {
-    font-size: large;
-    justify-content: center;
-    position: static;
-  }
-  h1, h2, h3 {
-    font-size: large;
-    justify-content: center;
-    position: static;
-    font-weight: bold;
+  .navbar-toggler {
+    display: block;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
   }
 }
 
