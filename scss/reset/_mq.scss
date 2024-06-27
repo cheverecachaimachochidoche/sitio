@@ -5,39 +5,28 @@
         justify-content: flex-start;
       }
 
-
-    .navba-logo
-    {
-        max-width: 10%;
-        height: auto;
+      .container-fluid {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    
+      .navba-nav {
+        width: 100%;
+        justify-content: space-between;
+      }
+    
+      .na-link {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0.75rem 1rem;
+      }
+    
+      .action-container, .image-container {
+        flex: 1 1 100%; /* Asegura que cada elemento ocupe el ancho completo del contenedor en pantallas pequeñas */
+      }
     }
+
 
 
     
-  }
-  
- 
- 
-  /* Media queries para pantallas pequeñas */
-  @media (max-width: 480px) {
-    .container-fluid {
-      flex-direction: row;
-      align-items: flex-start;
-    }
-  
-    .navba-nav {
-      width: 100%;
-      justify-content: space-between;
-    }
-  
-    .na-link {
-      display: block;
-      width: 100%;
-      text-align: left;
-      padding: 0.75rem 1rem;
-    }
-  
-    .action-container, .image-container {
-      flex: 1 1 100%; /* Asegura que cada elemento ocupe el ancho completo del contenedor en pantallas pequeñas */
-    }
-  }

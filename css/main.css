@@ -239,13 +239,6 @@ h1 {
   .container-fluid {
     justify-content: flex-start;
   }
-  .navba-logo {
-    max-width: 10%;
-    height: auto;
-  }
-}
-/* Media queries para pantallas pequeñas */
-@media (max-width: 480px) {
   .container-fluid {
     flex-direction: row;
     align-items: flex-start;
