@@ -249,6 +249,16 @@ h1 {
   .image-container {
     margin-bottom: 1rem;
   }
+  .container-fluid {
+    justify-content: flex-start;
+  }
+  .navba-logo {
+    margin-right: 1rem;
+  }
+  .navba-nav {
+    flex: 1;
+    justify-content: flex-start;
+  }
 }
 /* Media queries para pantallas pequeñas */
 @media (max-width: 480px) {
@@ -264,6 +274,23 @@ h1 {
   .btn-primary {
     padding: 0.5rem 1rem;
     font-size: 1rem;
+  }
+  .container-fluid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navba-logo {
+    margin-bottom: 1rem;
+  }
+  .navba-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .na-link {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem 1rem;
   }
 }
 
