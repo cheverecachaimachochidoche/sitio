@@ -247,8 +247,7 @@ h1 {
     height: auto;
   }
   .image-container {
-    padding: 0;
-    max-width: 100%;
+    max-width: min-content;
     height: auto;
   }
 }
