@@ -233,13 +233,7 @@ h1 {
   .idf {
     justify-content: center;
   }
-  .navba-logo {
-    max-width: 100%;
-    height: auto;
-    justify-content: left;
-    position: static;
-  }
-  .navba-nav {
+  .navba-logo, .navba-nav, header {
     max-width: 100%;
     height: auto;
     justify-content: left;
