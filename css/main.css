@@ -230,9 +230,6 @@ h1 {
 
 
 @media (max-width: 768px) {
-  .idf {
-    justify-content: center;
-  }
   header {
     max-width: 100%;
     height: auto;
