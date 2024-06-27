@@ -237,7 +237,7 @@ h1 {
 /* Media queries para pantallas medianas */
 @media (max-width: 768px) {
   .container-fluid {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
   }
   .navba-nav {
