@@ -168,7 +168,7 @@ p {
 
 
   
-  .container-fluid {
+.container-fluid {
     display: flex;
     align-items: center; /* Alinea elementos verticalmente al centro */
     justify-content: left; /* Distribuye espacio entre logo y menú */
@@ -176,7 +176,7 @@ p {
   }
   
   
-  .image-container {
+.image-container {
     display: flex;
     flex-direction: column;
     align-items: end;
