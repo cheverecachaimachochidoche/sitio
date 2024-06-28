@@ -19,6 +19,13 @@
         flex-wrap: wrap; 
       }
     
+      .navba {
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap; 
+        flex-direction: column; 
+      }
+
 
       .action-container, .image-container {
 

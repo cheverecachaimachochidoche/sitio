@@ -251,6 +251,12 @@ h1 {
     justify-content: flex-start;
     flex-wrap: wrap;
   }
+  .navba {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
   .action-container, .image-container {
     flex-direction: column; /* Cambia a disposición en columna en pantallas pequeñas */
     align-items: center; /* Centra verticalmente los elementos */
