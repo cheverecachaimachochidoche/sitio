@@ -36,6 +36,8 @@
   .col {
    flex: 0 0 100%;
    max-width: 100%;
+   max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
+
 }
 
   .card {
