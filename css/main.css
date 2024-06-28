@@ -265,11 +265,15 @@ h1 {
     width: 100%; /* El ancho al 100% del contenedor */
     max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
   }
+  .row-cols-md-2 {
+    grid-template-columns: 1fr;
+  }
   .col {
-    height: auto; /* Deja que la altura se ajuste automáticamente */
-    width: 100%; /* El ancho al 100% del contenedor */
-    padding-right: 30px;
-    padding-left: 30px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .card {
+    margin-bottom: 1rem;
   }
 }
 
