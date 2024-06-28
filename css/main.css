@@ -239,7 +239,7 @@ h1 {
   .container-fluid {
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center; /* Centra los elementos horizontalmente */
+    justify-content: left; /* Centra los elementos horizontalmente */
   }
   .navba-logo {
     height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
@@ -255,7 +255,6 @@ h1 {
     width: 100%;
     justify-content: flex-start;
     flex-wrap: wrap;
-    flex-direction: column;
   }
   .action-container, .image-container {
     flex-direction: column; /* Cambia a disposición en columna en pantallas pequeñas */

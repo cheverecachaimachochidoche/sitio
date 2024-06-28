@@ -4,7 +4,7 @@
       .container-fluid {
         flex-direction: column; 
         align-items: flex-start;
-        justify-content: center; /* Centra los elementos horizontalmente */
+        justify-content:left; /* Centra los elementos horizontalmente */
 
       }
      
@@ -23,7 +23,6 @@
         width: 100%;
         justify-content: flex-start;
         flex-wrap: wrap; 
-        flex-direction: column; 
       }
 
 
