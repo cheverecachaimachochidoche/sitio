@@ -247,7 +247,7 @@ h1 {
   .navba-nav {
     flex-direction: row;
     font-size: 0.8rem; /* Ajusta el tamaño de los enlaces para pantallas pequeñas */
-    gap: 0; /* Elimina el espacio entre los enlaces y el logo */
+    gap: 20px; /* Elimina el espacio entre los enlaces y el logo */
     justify-content: center;
   }
   .na-link {
