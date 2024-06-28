@@ -238,7 +238,7 @@ h1 {
   .container-fluid {
     flex-direction: row; /* Mantén los elementos en fila */
     align-items: center; /* Centra verticalmente los elementos */
-    justify-content: center;
+    justify-content: flex-start;
   }
   .navba-logo {
     height: 50px; /* Ajusta el tamaño del logo para pantallas pequeñas */
@@ -248,6 +248,7 @@ h1 {
     flex-direction: row;
     font-size: 0.8rem; /* Ajusta el tamaño de los enlaces para pantallas pequeñas */
     gap: 0; /* Elimina el espacio entre los enlaces y el logo */
+    justify-content: center;
   }
   .na-link {
     margin-left: 0.5rem; /* Ajusta el margen izquierdo para pegar los enlaces al logo */
