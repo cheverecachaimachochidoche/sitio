@@ -233,6 +233,12 @@ h1 {
   /* Otros estilos necesarios */
 }
 
+.mapa {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  max-height: 1500px; /* Establece una altura máxima para las imágenes */
+}
+
 
 @media (max-width: 768px) {
   .container-fluid {
@@ -257,6 +263,8 @@ h1 {
   .mapa {
     max-width: 100%;
     height: auto;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start;
   }
 }
 

@@ -26,5 +26,7 @@
   .mapa {
     max-width: 100%;
     height: auto;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start;
   }
 }
