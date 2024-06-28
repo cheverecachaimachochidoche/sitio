@@ -275,6 +275,8 @@ h1 {
   }
   .card {
     margin-bottom: 1rem;
+    max-width: 100%;
+    max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
   }
   .servicio {
     padding-top: 100px;
