@@ -254,6 +254,9 @@ h1 {
   .na-link {
     margin-left: 0.5rem; /* Ajusta el margen izquierdo para pegar los enlaces al logo */
   }
+  .mapa {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
