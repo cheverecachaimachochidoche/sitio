@@ -1,3 +1,4 @@
+/* Media queries para pantallas pequeñas */
 @media (max-width: 768px) {
   .container-fluid {
       flex-direction: row; /* Mantén los elementos en fila */
@@ -7,10 +8,16 @@
   
   .navba-logo {
       height: 50px; /* Ajusta el tamaño del logo para pantallas pequeñas */
+      margin-right: 0.5rem; /* Espacio entre el logo y los enlaces */
   }
   
   .navba-nav {
       flex-direction: row;
       font-size: 0.8rem; /* Ajusta el tamaño de los enlaces para pantallas pequeñas */
+      gap: 0.5rem; /* Reduce el espacio entre los enlaces */
+  }
+
+  .na-link {
+      margin-left: 0; /* Elimina cualquier margen izquierdo en los enlaces */
   }
 }
