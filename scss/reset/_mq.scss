@@ -1,40 +1,16 @@
-/* Media queries para pantallas medianas */
 @media (max-width: 768px) {
-
-      .container-fluid {
-        flex-direction: column; 
-        align-items: flex-start;
-        justify-content:left; /* Centra los elementos horizontalmente */
-
-      }
-     
-      .navba-logo {
-        height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
-        align-items:start;
-    }
-      .navba-nav {
-        font-size:xx-small;
-        width: 100%;
-        justify-content: flex-start;
-        flex-wrap: wrap; 
-      }
-    
-      .navba {
-        width: 100%;
-        justify-content: flex-start;
-        flex-wrap: wrap; 
-      }
-
-
-      .action-container, .image-container {
-
-        flex-direction: column; /* Cambia a disposición en columna en pantallas pequeñas */
-        align-items: center; /* Centra verticalmente los elementos */
-          }
-          
-       
-    }
-
-
-
-    
+  .container-fluid {
+      flex-direction: row; /* Mantén los elementos en fila */
+      align-items: center; /* Centra verticalmente los elementos */
+      justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  }
+  
+  .navba-logo {
+      height: 50px; /* Ajusta el tamaño del logo para pantallas pequeñas */
+  }
+  
+  .navba-nav {
+      flex-direction: row;
+      font-size: 0.8rem; /* Ajusta el tamaño de los enlaces para pantallas pequeñas */
+  }
+}
