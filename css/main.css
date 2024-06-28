@@ -238,7 +238,7 @@ h1 {
   .container-fluid {
     flex-direction: row; /* Mantén los elementos en fila */
     align-items: center; /* Centra verticalmente los elementos */
-    justify-content: space-between; /* Espacia los elementos para centrar el texto */
+    justify-content: space-between;
     width: 100%;
   }
   .navba-logo {
