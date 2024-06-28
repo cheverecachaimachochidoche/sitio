@@ -243,7 +243,7 @@ h1 {
   }
   .navba-logo {
     height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
-    padding-right: 10px;
+    align-items: start;
   }
   .navba-nav {
     font-size: xx-small;
