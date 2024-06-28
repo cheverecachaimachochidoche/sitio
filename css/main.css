@@ -261,10 +261,9 @@ h1 {
     margin-left: 0.5rem; /* Ajusta el margen izquierdo para pegar los enlaces al logo */
   }
   .mapa {
-    max-width: 100%;
-    height: auto;
-    align-items: center; /* Centra verticalmente los elementos */
-    justify-content: flex-start;
+    height: auto; /* Deja que la altura se ajuste automáticamente */
+    width: 100%; /* El ancho al 100% del contenedor */
+    max-height: 50vh; /* Limita la altura máxima al 50% del viewport */
   }
 }
 
