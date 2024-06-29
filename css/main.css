@@ -257,7 +257,7 @@ h1 {
     gap: 0; /* Elimina el espacio entre los enlaces y el logo */
     text-align: center;
   }
-  .content {
+  .content, .content2 {
     flex-direction: column; /* Mantén los elementos en fila */
     align-items: center; /* Centra verticalmente los elementos */
     justify-content: flex-start;
