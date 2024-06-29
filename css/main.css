@@ -266,7 +266,7 @@ h1 {
     max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
   }
   .row-cols-md-2 {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
   .col {
     flex: 0 0 100%;
