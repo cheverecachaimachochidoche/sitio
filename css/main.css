@@ -304,6 +304,10 @@ h1 {
     width: 100%; /* El ancho al 100% del contenedor */
     max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
   }
+  .img1, .img2 {
+    max-width: 100%;
+    height: auto;
+  }
   .car h1 {
     font-size: 1.5rem;
   }
