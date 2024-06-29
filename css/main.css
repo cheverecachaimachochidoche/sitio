@@ -286,17 +286,17 @@ h1 {
   .servicio, .contacto {
     padding-top: 100px;
   }
-  .servicio h1, .contacto h1 {
+  .servicio h1, .contacto h1, .index h1 {
     font-size: 1.5rem;
   }
   .servicio .item {
     margin-bottom: 15px;
     padding: 10px;
   }
-  .servicio h4, .contacto h2 {
+  .servicio h4, .contacto h2, .index h2 {
     font-size: 1.25rem;
   }
-  .servicio p, .contacto p {
+  .servicio p, .contacto p, .index p {
     font-size: 0.875rem;
   }
   .row {
