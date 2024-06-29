@@ -258,7 +258,7 @@ h1 {
     text-align: center;
   }
   .content {
-    flex-direction: row; /* Mantén los elementos en fila */
+    flex-direction: column; /* Mantén los elementos en fila */
     align-items: center; /* Centra verticalmente los elementos */
     justify-content: flex-start;
     width: 100%;
@@ -279,7 +279,9 @@ h1 {
     max-width: 100%;
   }
   .card {
-    width: 100%;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
   }
   .servicio, .contacto {
     padding-top: 100px;
