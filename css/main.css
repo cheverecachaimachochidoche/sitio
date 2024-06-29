@@ -273,7 +273,7 @@ h1 {
     max-width: 100%;
   }
   .card {
-    margin-bottom: 1rem;
+    width: 100%;
   }
   .servicio {
     padding-top: 100px;
