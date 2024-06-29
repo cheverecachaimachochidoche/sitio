@@ -30,20 +30,16 @@
 }
 
   .row-cols-md-2 {
-     grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
 }
 
   .col {
-   flex: 0 0 100%;
-   max-width: 100%;
-   max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
-
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
   .card {
     margin-bottom: 1rem;
-    max-width: 100%;
-    max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
 }
 
 
