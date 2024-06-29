@@ -304,6 +304,12 @@ h1 {
     width: 100%; /* El ancho al 100% del contenedor */
     max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
   }
+  .action-container {
+    flex-direction: row; /* Mantén los elementos en fila */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start;
+    width: 100%;
+  }
   .img1, .img2 {
     width: 100%; /* El ancho al 100% del contenedor */
     max-width: 100%;
