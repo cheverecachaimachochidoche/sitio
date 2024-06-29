@@ -101,6 +101,11 @@
 
 }
 
+.boton {
+  padding-left: 0; /* Ajusta el padding para dispositivos móviles */
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
   .car{
     max-width: 100%;
     height: auto;
