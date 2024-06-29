@@ -309,6 +309,10 @@ h1 {
     max-width: 100%;
     height: auto;
   }
+  .car {
+    max-width: 100%;
+    height: auto;
+  }
   .car h1 {
     font-size: 1.5rem;
   }
