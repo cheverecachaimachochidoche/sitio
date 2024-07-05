@@ -248,6 +248,7 @@ h1 {
 
 @media (max-width: 768px) {
   .container-fluid {
+    display: flex;
     flex-direction: row; /* Mantén los elementos en fila */
     align-items: center; /* Centra verticalmente los elementos */
     justify-content: flex-start;
@@ -258,6 +259,7 @@ h1 {
     margin-right: 0; /* Elimina cualquier margen derecho del logo */
   }
   .navba-nav {
+    display: flex;
     flex-direction: row;
     font-size: 1rem; /* Ajusta el tamaño de los enlaces para pantallas pequeñas */
     gap: 0; /* Elimina el espacio entre los enlaces y el logo */
@@ -337,6 +339,15 @@ h1 {
     width: 100%;
     max-width: 100%;
     height: auto;
+  }
+  .content, .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img2, .text2 {
+    order: 1; /* Ajusta el orden para que la imagen y el texto estén alineados verticalmente */
   }
   .car {
     max-width: 100%;
