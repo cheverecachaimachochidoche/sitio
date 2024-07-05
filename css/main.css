@@ -306,8 +306,9 @@ h1 {
   }
   .action-container {
     flex-direction: column;
-    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
     width: 100%;
   }
   .img1, .img2 {
