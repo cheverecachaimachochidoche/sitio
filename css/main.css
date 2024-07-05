@@ -335,8 +335,138 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
   }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .content, .content2 {
+    /*.action-container{
+        flex-direction: column; 
+        align-items: center; 
+        justify-content:space-between;
+        padding-left: 10px;
+        width: 100%;
+
+
+
+     .boton {
+      padding-left: 0; 
+      width: 100%; 
+
+    } */
+  }
+  .content .container-fluid, .content2 .container-fluid {
+    display: flex;
+    flex-direction: row; /* Mantén los elementos en fila */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .content .navba-logo, .content2 .navba-logo {
+    height: 50px; /* Ajusta el tamaño del logo para pantallas pequeñas */
+    margin-right: 0; /* Elimina cualquier margen derecho del logo */
+  }
+  .content .navba-nav, .content2 .navba-nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem; /* Ajusta el tamaño de los enlaces para pantallas pequeñas */
+    gap: 0; /* Elimina el espacio entre los enlaces y el logo */
+    text-align: center;
+  }
+  .content .content, .content .content2, .content2 .content, .content2 .content2 {
+    display: flex;
+    flex-direction: column; /* Mantén los elementos en fila */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .content .na-link, .content2 .na-link {
+    margin-left: 0.5rem; /* Ajusta el margen izquierdo para pegar los enlaces al logo */
+  }
+  .content .mapa, .content2 .mapa {
+    height: auto; /* Deja que la altura se ajuste automáticamente */
+    width: 100%; /* El ancho al 100% del contenedor */
+    max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
+  }
+  .content .row-cols-md-2, .content2 .row-cols-md-2 {
+    flex-direction: column;
+  }
+  .content .col, .content2 .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .content .card, .content2 .card {
+    margin-bottom: 1rem;
+    max-width: 100%;
+    max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
+  }
+  .content .servicio, .content .contacto, .content2 .servicio, .content2 .contacto {
+    padding-top: 100px;
+  }
+  .content .servicio h1, .content .contacto h1, .content .index h1, .content2 .servicio h1, .content2 .contacto h1, .content2 .index h1 {
+    font-size: 1.5rem;
+  }
+  .content .servicio .item, .content2 .servicio .item {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .content .servicio h4, .content .contacto h2, .content .index h2, .content2 .servicio h4, .content2 .contacto h2, .content2 .index h2 {
+    font-size: 1.25rem;
+  }
+  .content .servicio p, .content .contacto p, .content .index p, .content2 .servicio p, .content2 .contacto p, .content2 .index p {
+    font-size: 0.875rem;
+  }
+  .content .row, .content2 .row {
+    height: auto; /* Deja que la altura se ajuste automáticamente */
+    width: 100%; /* El ancho al 100% del contenedor */
+    max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
+  }
+  .content .action-container, .content2 .action-container {
+    padding-top: 260px;
+    padding-left: 10px;
+    padding-right: 10px; /* Añadido para equilibrar el padding en ambos lados */
+  }
+  .content .boton button, .content2 .boton button {
+    width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
+  }
+  .content .img1,
+  .content .img2 img, .content2 .img1,
+  .content2 .img2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Asegura que la imagen ocupe todo el contenedor y mantenga la proporción */
+  }
+  .content .content, .content .content2, .content2 .content, .content2 .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .content .content2, .content2 .content2 {
+    display: flex;
+    flex-direction: column-reverse; /* Invertir el orden de los elementos */
+  }
+  .content .img2, .content .text2, .content2 .img2, .content2 .text2 {
+    order: 1; /* Ajusta el orden para que la imagen y el texto estén alineados verticalmente */
+  }
+  .content .car, .content2 .car {
+    max-width: 100%;
+    height: auto;
+  }
+  .content .car h1, .content2 .car h1 {
+    font-size: 1.5rem;
+  }
+  .content carousel-3d, .content2 carousel-3d {
+    width: 100%;
+    height: auto;
+  }
+  .content slide img, .content2 slide img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
   .img2, .text2 {
     order: 1; /* Ajusta el orden para que la imagen y el texto estén alineados verticalmente */
   }
