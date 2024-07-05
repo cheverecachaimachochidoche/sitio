@@ -325,10 +325,11 @@ h1 {
   .boton button {
     width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
   }
-  .img1, .img2 {
+  .img1,
+  .img2 img {
     width: 100%;
-    max-width: 100%;
     height: auto;
+    object-fit: cover; /* Asegura que la imagen ocupe todo el contenedor y mantenga la proporción */
   }
   .content, .content2 {
     display: flex;
