@@ -305,7 +305,7 @@ h1 {
     max-width: 50vh; /* Limita la altura máxima al 50% del viewport */
   }
   .action-container {
-    flex-direction: row; /* Mantén los elementos en fila */
+    flex-direction: column; /* Mantén los elementos en fila */
     align-items: center; /* Centra verticalmente los elementos */
     justify-content: flex-start;
     width: 100%;
