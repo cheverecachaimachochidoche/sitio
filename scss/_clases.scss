@@ -12,12 +12,6 @@
     padding: 15px;
 }
 
-.image-container {
-  flex-direction: column; /* Cambia a disposición en columna en pantallas pequeñas */
-  align-items: center; /* Centra verticalmente los elementos */
-}
-
-
 .navba-logo {
     height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
     margin-right: 150px; /* Espacio entre la imagen y el menú */
@@ -38,9 +32,10 @@
 }
 
 .image-container {
-    display: flex;
-    flex-direction: column;
-    align-items:end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .img1 {
     padding-right: 10px;
