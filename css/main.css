@@ -320,7 +320,6 @@ h1 {
   } */
   .action-container {
     padding-left: 10px;
-    padding-right: 10px; /* Añadido para equilibrar el padding en ambos lados */
   }
   .boton {
     width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
