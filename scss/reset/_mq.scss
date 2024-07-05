@@ -24,12 +24,7 @@
     align-items: center; /* Centra verticalmente los elementos */
     justify-content: flex-start;
     width: 100%;
-
   }
-
-
-
-
   .na-link {
       margin-left: 0.5rem; /* Ajusta el margen izquierdo para pegar los enlaces al logo */
   }
@@ -110,13 +105,19 @@
 .boton button {
   width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
 }
-  .img1, .img2{
+  .img1 {
     width: 100%; /* El ancho al 100% del contenedor */
     max-width: 100%;
     height: auto;
 
 }
+ .img2{
+  padding-left: 5px;
+  width: 100%; /* El ancho al 100% del contenedor */
+  max-width: 100%;
+  height: auto;
 
+}
 
 
   .car{
