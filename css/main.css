@@ -42,7 +42,7 @@ body {
   text-decoration: underline;
 }
 
-.image-container, .img2 {
+.image-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +55,12 @@ body {
   z-index: 1; /* Asegura que la imagen esté debajo de la navbar */
   width: 850px; /* Ajusta este valor según lo grande que quieras que sea la imagen */
   height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.img2 {
+  height: 600px;
+  padding-left: 20px;
+  z-index: 1; /* Asegura que la imagen esté debajo de la navbar */
 }
 
 .content {
