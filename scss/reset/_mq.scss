@@ -103,12 +103,12 @@
 
 .action-container {
   padding-left: 10px;
+  padding-right: 10px; /* Añadido para equilibrar el padding en ambos lados */
 }
 
-.boton {
+.boton button {
   width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
 }
-
   .img1, .img2{
     width: 100%; /* El ancho al 100% del contenedor */
     max-width: 100%;

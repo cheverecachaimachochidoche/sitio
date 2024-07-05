@@ -119,9 +119,22 @@ body {
 .action-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding-top: 260px;
-  padding-left: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px; /* Añadido padding para espacio alrededor del contenido */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.boton {
+  display: flex;
+  justify-content: center; /* Centra el botón dentro del div.boton */
+  width: 100%;
+  padding: 0;
+}
+
+.boton button {
+  width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
 }
 
 h1 {
@@ -187,12 +200,6 @@ p {
   margin-bottom: 20px;
   padding-top: 200px;
   padding-left: 100px;
-}
-
-.boton {
-  margin-bottom: 20px;
-  padding-left: 290px;
-  align-items: center;
 }
 
 .btn-primary {
@@ -321,8 +328,9 @@ h1 {
   } */
   .action-container {
     padding-left: 10px;
+    padding-right: 10px; /* Añadido para equilibrar el padding en ambos lados */
   }
-  .boton {
+  .boton button {
     width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
   }
   .img1, .img2 {
