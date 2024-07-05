@@ -101,6 +101,7 @@ body {
   margin-bottom: 20px;
   padding-left: 290px;
   align-items: center;
+  width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
 }
 
 .btn-primary {
