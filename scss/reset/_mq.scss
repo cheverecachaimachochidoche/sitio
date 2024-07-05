@@ -20,6 +20,8 @@
   }
 
   .content, .content2{
+    display: flex;
+
     flex-direction: column; /* Mantén los elementos en fila */
     align-items: center; /* Centra verticalmente los elementos */
     justify-content: flex-start;
@@ -105,18 +107,10 @@
 .boton button {
   width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
 }
-  .img1 {
-    width: 100%; /* El ancho al 100% del contenedor */
-    max-width: 100%;
-    height: auto;
-
-}
- .img2{
-  padding-left: 5px;
-  width: 100%; /* El ancho al 100% del contenedor */
+.img1, .img2 {
+  width: 100%;
   max-width: 100%;
   height: auto;
-
 }
 
 
